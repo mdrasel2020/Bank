@@ -5,12 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rasel Bank</title>
 </head>
 
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae architecto nobis.
-    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto">
+
+
+                <div class="main text-center" id="main_area">
+                    <h1 class="text-uppercase font-weight-bolder">Bank Bangladesh </h1> <br> <br>
+                    <div class="form_area">
+                        <div class="rard">
+                            <input type="text" class="form-control" placeholder="Inter your user Name">
+                            <br>
+                            <input type="password" class="form-control" placeholder="Inter your user Password">
+                            <br>
+                            <button class="btn btn-success" id="login">Login</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="prement_arae" id="prement_arae">
+
+            <div class="amount_rea">
+                <div class="Deposit">
+                    <div class="deposit_are bg-primary rasel">
+                        <h4>Deposit</h4>
+                        <h2>$<span id="deposit_am">50</span> </h2>
+                    </div>
+                </div>
+                <div class="Withdor">
+                    <div class="Withdorare bg-danger rasel">
+                        <h4>Withdrow</h4>
+                        <h2>$<span id="withdroCREENT">50</span> </h2>
+
+                    </div>
+                </div>
+                <div class="Blance">
+                    <div class="Blance_are bg-success rasel">
+                        <h4>Belance</h4>
+                        <h2>$<span id="blancesALL">500</span> </h2>
+                    </div>
+                </div>
+            </div>
+            <br><br> <br><br>
+            <div class="amount_in_out">
+                <div class="row">
+                    <br><br>
+                    <div class="col-5 offset-1">
+                        <div class="deposti_ares">
+                            <h2>Deposit Amount</h2><br>
+                            <input type="text" class="form-control" placeholder="$ Inter Your Deposit Amount"
+                                id="Deposit_Amount">
+                            <br><br>
+                            <button id="deposit" class="btn btn-success">Deposit</button>
+                        </div>
+
+                    </div>
+                    <div class="col-5">
+                        <div class="deposti_ares">
+                            <h2>Withdro Amount</h2><br>
+                            <input type="text" class="form-control" placeholder=" $ Inter Your Withdrow Amount"
+                                id="with_Amount">
+                            <br><br>
+                            <button id="Withdro" class="btn btn-success">Withdrow</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
